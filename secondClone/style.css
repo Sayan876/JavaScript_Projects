@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(25deg, #020e1f 0%, #3c546b 58%, #010e1a 100%);
+    display: flex;
+    justify-content: center;
+    align-items: start
+}
+
+
+section>article{
+    height: 85%;
+    width: 83%;
+    
+    display: flex;
+}
+
+section>article>.texts{
+    height: 100%;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+section>article>.texts>h1{
+    color: rgb(255, 115, 0);
+    font-size: 25px;
+}
+section>article>.texts>h3{
+    color: white;
+}
+
+section>article>.login{
+    height: 100%;
+    width: 50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+section>article>.login>main{
+    width: 300px;
+    height: 270px;
+    
+    background-color: #031b31a6;
+    border: 1px solid #031b31a6;
+    border-radius: 5px;
+    color: white;
+}
+
+section>article>.login>main>.heading{
+    height: 15%;
+    width: 100%;
+    border-bottom:1px solid white;
+    padding: 10px;
+}
+
+section>article>.login>main>.mainthing{
+    height: 60%;
+    width: 100%;
+    border-bottom:1px solid white;
+    padding: 10px;
+}
+
+section>article>.login>main>.mainthing>form>input{
+    background:transparent;
+    color: white;
+    height: 34px;
+    width: 281px;
+    border: 1px solid rgba(255, 255, 255, 0.623);
+    border-radius: 5px;
+}
+
+
+section>article>.login>main>.legs{
+    height: 25%;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+section>article>.login>main>.mainthing>form>input:hover{
+    border: 1px solid rgb(11, 110, 223);
+}
+

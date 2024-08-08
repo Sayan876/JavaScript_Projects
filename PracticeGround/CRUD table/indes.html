@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="theme" onclick="ctheme()">Enable white mode</button>
+    <main>
+        <section>
+            <form action="">
+                <input type="text" placeholder="Enter the name">
+                <input type="text" placeholder="Enter the Bounty">
+                <input type="text" placeholder="Enter the Company">
+                <button class="hit" onclick="formhandle()" onmouseover="x()" onmouseout="y()">Submit</button>
+            </form>
+            <div>
+                  <table border="1" cellpadding="10">
+                    <tr>
+                        <td>Name</td>
+                        <td>Bounty</td>
+                        <td>Company</td>
+                        <td>Action</td>
+                    </tr>
+                  </table>
+            </div>
+        </section>
+       
+    </main>
+
+    <script src="fun.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100vw;
+    height: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+nav>article{
+    width: 95%;
+    height: 100%;
+   
+    display: flex;
+    
+}
+
+nav>article>.left{
+    width: 50%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+nav>article>.right{
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav>article>.right>a{
+    color: rgb(0, 68, 255);
+    text-decoration: none;
+}
+
+nav>article>.left>a{
+    color: white;
+    text-decoration: none;
+}
+a{
+    font-size: small;
+}
+
+section{
+    height: 90vh;
+    width: 100%;
+    
+    background: linear-gradient(rgb(2, 36, 49),rgb(7, 37, 102));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section>article{
+    width: 33%;
+    height: 75%;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+section>article>.headpart{
+    height: 27%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section>article>.logind{
+    height: 43%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+section>article>.logind>div{
+    height: 40%;
+    width: 75%;
+    
+}
+section>article>.Mainswitch{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section>article>.Mainswitch>button{
+    height: 35%;
+    width: 70%;
+    border: 1px solid rgb(0, 60, 255);
+    border-radius: 50px;
+    background-color: rgb(0, 174, 255);
+    cursor: pointer;
+}
+
+input::placeholder{
+    padding: 10px;
+}
+input{
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 50px;
+
+}
