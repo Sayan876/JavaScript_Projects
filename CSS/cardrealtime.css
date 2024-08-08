@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    /* background: linear-gradient(red,rgb(160, 12, 12)); */
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    background-repeat: no-repeat;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+section>article{
+    margin: 100px;
+    height: 400px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+section>article>.profilepic{
+  height: 30%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  
+}
+
+section>article>.profilepic>div{
+   
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+    background-image: url(/images/images_42.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px;
+
+    border-color: black;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 75px;
+    box-shadow: 0px 0px 10px white;
+    transition: 0.6s;
+
+
+}
+
+section>article>.details{
+    height: 35%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    
+    
+}
+section>article>.details>button{
+    margin-top: 2px;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px red,0px 0px 25px red;
+    
+
+
+}
+
+section>article>.details>button:hover{
+    margin-top: 2px;
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    color:black;
+    border: 1px solid red;
+    box-shadow: 0px 0px 5px red;
+    border-radius: 3px;
+}
+
+
+
+section>article>.skills>button{
+    margin: 4px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    border-radius:2px;
+    transition: 0.5s;
+}
+
+section>article>.skills>button:hover{
+    margin: 4px;
+    padding: 4px;
+    background-color: rgb(255, 0, 0);
+    color: black;
+    border: 1px solid red;
+    border-radius:2px;
+}
+
+
+
+
+section>.profile2{
+    margin: 100px;
+    height: 400px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+section>.profile2>.profilepic{
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  
+}
+
+section>.profile2>.profilepic>div{
+   
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+    background-image: url(/images/xml.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px;
+
+    border-color:white;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 75px;
+    box-shadow: 0px 0px 10px black;
+
+
+}
+
+section>.profile2>.details{
+    height: 35%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    color: black;
+    
+    
+}
+section>.profile2>.details>button{
+    margin-top: 2px;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    color:black;
+    border: 1px solid red;
+    border-radius: 3px;
+    transition: 0.5s;
+    
+
+
+}
+
+section>.profile2>.details>button:hover{
+    margin-top: 2px;
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+
+
+section>.profile2>.skills>button{
+    margin: 4px;
+    padding: 4px;
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+    border-radius:2px;
+    transition: 0.5s;
+}
+
+section>.profile2>.skills>button:hover{
+    margin: 4px;
+    padding: 4px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 1px solid red;
+    border-radius:2px;
+}
+
+section>article>.profilepic>div:hover{
+    transform: scale(1.2) ;
+}

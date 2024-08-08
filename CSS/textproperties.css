@@ -1,0 +1,31 @@
+
+section{
+    margin: 50px;
+    padding: 50px;
+    background-color: rgba(253, 253, 253, 0.5);
+    color: black;
+    text-align: center;
+    /* word-spacing: 20px;
+    letter-spacing: 20px; */
+    font-size: 30px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-style: italic;
+    font-weight: lighter;
+    border: 5px;
+    border-radius: 5x;
+    border-color:black;
+    border-style: solid;
+    box-shadow: 55px 10px 50px black;
+    text-decoration: dotted underline;
+}
+body{
+    /* background-image: url(/images/3660696.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+    
+    
+    
+    
+    
+}

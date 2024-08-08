@@ -1,0 +1,31 @@
+/* Descendant */
+/* section div{
+    background-color: blue;
+} */
+
+
+
+/* child */
+/* section>div{
+background-color: red;
+}
+section>article{
+    background-color: blueviolet;
+} */
+
+
+/* Adjacent sibling */
+/* section+div{
+    background-color: black;
+    color: white;
+} */
+
+/* general sibling */
+section~div{
+    background-color: aqua;
+}
+
+section~article{
+    background-color: red;
+}
+

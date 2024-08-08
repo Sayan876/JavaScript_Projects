@@ -1,0 +1,23 @@
+a:link{
+    background-color: black;
+    color: darkblue;
+    text-decoration: none;
+   
+}
+a:active{
+    color: red;
+    background-color: blue;
+}
+a:visited{
+    color: aqua;
+    background-color: brown;
+    
+}
+a:hover{
+    color: green;
+    background-color: black;
+}
+
+a{
+    font-size: 30px;
+}

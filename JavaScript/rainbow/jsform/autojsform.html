@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section{
+            background-color: black;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+        section>form{
+            height: 40%;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 50px;
+            border: 1px solid gray;
+            border-radius: 20px;
+        }
+
+        section>form>div{
+            align-items: center;
+        }
+
+        section>form>.name{
+            width: 100%;
+            height: 25%;
+            display: flex;
+           
+        }
+
+        section>form>.salary{
+            width: 100%;
+            height: 25%;
+        }
+        section>form>.Company{
+            width: 100%;
+            height: 25%;
+        }
+
+        section>form>.submit{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: center;
+        }
+
+        input{
+            height: 50%;
+            width: 80%;
+            border: 1px solid black;
+            border-radius: 50px;
+            padding: 10px;
+
+        }
+
+        input::placeholder{
+            padding: 10px;
+        }
+
+        button{
+            height: 60%;
+            width: 35%;
+            background-color: grey;
+            border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.6s;
+            box-shadow: 0px 0px 5px grey;
+        }
+        
+
+        table{
+            width: 80%;
+        }
+
+        label{
+            color: white;
+        }
+       
+    </style>
+</head>
+<body>
+    <section>
+        
+            <form action="">
+                <div class="name">
+                   
+                <input type="text" placeholder="Name">
+                </div>
+                <div class="salary" style="display: flex; align-items: center;">
+                    
+                <input type="text"  placeholder="Enter the salary">
+                </div>
+                <div class="Company" style="display: flex; align-items: center;">
+                   
+                    <input type="text"  placeholder="Enter the Company Name">
+                </div>
+                <div class="submit">
+                    <button  onclick="formHandle()" onmouseover="x()" onmouseout="y()">Submit</button>
+                </div>
+                
+               
+                
+               
+            </form>
+            <table border="2"  cellpadding="30" >
+                <tr>
+                    <th style="color: white;">Name</th>
+                    <th style="color: white;">Salary</th>
+                    <th style="color: white;">Company</th>
+                    <th style="color: white;">Action</th>
+                </tr>
+            </table>
+           
+    </section>
+
+    <script src="autojsform.js"></script>
+</body>
+</html>

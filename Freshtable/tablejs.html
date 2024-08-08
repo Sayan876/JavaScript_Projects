@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tablecss.css">
+    <title>Dynamic Table</title>
+</head>
+<body>
+    <button class="themes" onclick="changethme()">Enable white mode</button>
+    <main>
+        <section>
+            <div class="inputsall">
+                <input type="text" placeholder="Enter the name">
+                <input type="text" placeholder="Enter the salary">
+                <input type="text" placeholder="Enter the company">
+                <button class="throw" onclick="formHandle()" onmouseover="x()" onmouseout="yl()" onmouseup="z()">Submit</button>
+            </div>
+            <div class="rows">
+                <table border="1" cellpadding="10">
+                    <tr>
+                        <td>Name</td>
+                        <td>Salary</td>
+                        <td>Company</td>
+                        <td>Action</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </section>
+    </main>
+
+    <script src="tablejs.js"></script>
+   
+    
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        body{
+            background-color: black;
+            transition: 0.6s;
+        }
+
+        section{
+          height: 100vh;
+          width: 100%;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+        }
+
+        h1{
+            font-size: 60px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 0px 55px red;
+
+        }
+        h2{
+            font-size: 50px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 0px 75px red;
+            text-align: center;
+            
+        }
+
+
+        section>article{
+            height: 70%;
+            width: 90%;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.6s;
+        }
+       section>article>button{
+        height: 40px;
+        width: 140px;
+        margin: 30px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.6s;
+        font-size: larger;
+        color: white;
+        background-color: black;
+        box-shadow: 0px 0px 10px white;
+
+       }
+
+       section>article>button:hover{
+        box-shadow: 0px 0px 20px white;
+       }
+
+    </style>
+</head>
+<body>
+    
+    <section >
+        <h1 style="text-align: center;">Color Changer</h1>
+    <h2>Click buttons to Change the background-color</h2>
+        <article>
+            <button >Violet</button>
+            <button >Indigo</button>
+            <button >Blue</button>
+            <button >Green</button>
+            <button >Yellow</button>
+            <button >Orange</button>
+            <button >Red</button>
+        </article>
+
+        
+    </section>
+    <script src="rainbowoptimized.js"></script>
+</body>
+</html>
